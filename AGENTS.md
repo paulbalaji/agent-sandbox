@@ -120,3 +120,11 @@ The Python SDK lives at [clients/python/agentic-sandbox-client/](clients/python/
 - Configuration / scale tuning: [docs/configuration.md](docs/configuration.md).
 - Deep design proposals: [docs/keps/](docs/keps/) (template at [docs/keps/NNNN-template/](docs/keps/NNNN-template/)).
 - Slack: `#agent-sandbox` on Kubernetes Slack for project work; `#sig-apps` for broader SIG Apps discussion. Mailing list: [SIG Apps](https://groups.google.com/a/kubernetes.io/g/sig-apps). New to k8s Slack? Get an invite at https://slack.k8s.io/.
+
+## Code Review
+
+For reviews, read `.agents/skills/code-review/SKILL.md` for the shared Kubernetes review contract.
+
+## Agent Skills
+
+Shared skills live in `.agents/skills/<name>/SKILL.md` and follow the [Agent Skills standard](https://agentskills.io/specification). Read a matching skill before using its workflow. Claude Code discovers the same files through the `.claude/skills` symlink; edit the files in `.agents/skills`. Use Claude Code v2.1.277 or later for native `AGENTS.md` loading.

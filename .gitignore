@@ -34,5 +34,6 @@ hermes-sandbox-knowledge.md
 # Local IDE, editor, and AI tool folders
 .idea
 .ship
-.claude
+.claude/*
+!.claude/skills
 .vscode

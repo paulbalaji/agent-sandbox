@@ -1,3 +1,9 @@
+---
+name: code-review
+description: Review agent-sandbox changes for Kubernetes controller, API, lint, and
+  contributor conventions. Use when reviewing pull requests or code changes.
+---
+
 # AI Code Review Guidelines
 
 **Project Context:**
